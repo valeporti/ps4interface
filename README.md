@@ -2,7 +2,7 @@ This Project is built on [electron](https://electronjs.org/), so to install and 
 
 To download:
 
-https://github.com/valeporti/ps4interface.git
+git clone https://github.com/valeporti/ps4interface.git
 
 To install
 
