@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+</head>
+
+<body>
+  <h5>Projet S4 - P07_Cerema_DETECTION_NAVIRE</h5>
+  <div class="container" >
+    <form action="#" onsubmit="doRequest(event)">
+      <div class="row">
+        <div class="form-group">
+          <lable for="from_date">From Date</lable>
+          <input class="form-control" type="date" id="from_date" name="from_date">
+        </div>
+        <div class="form-group">
+          <lable for="to_date">To Date</lable>
+          <input class="form-control" type="date" id="to_date" name="to_date">
+        </div>
+        <div class="form-group">
+          <lable for="latest">Or Choose</lable>
+          <input class="form-control" type="number" id="latest" name="latest" placeholder="#">
+        </div>
+      </div>
+      <div class="row">
+        <select id="format" name="format" class="form-control">
+          <option value="">Choisizes une Option</option>
+          <option value="GE">Format Google Earth</option>
+        </select>
+      </div>
+      <div class="row">
+        <button type="submit" class="btn btn-primary" >Télécharger</button>    
+      </div>
+    </form>
+  </div>
+
+
+  <script>let $ = require('jquery');</script>
+  <script>require('popper.js');</script>
+  <script>require('bootstrap');</script>
+  <script src="request.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "name": "projet_s4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "valeporti",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "electron": "^4.0.5",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.7"
+  }
+}
