@@ -1,3 +1,5 @@
+This Project is built on electron[https://electronjs.org/], so to install and be able to run,you need to have installed node[https://nodejs.org] and npm (it's enough to download the node package since it includes npm)
+
 To download:
 
 https://github.com/valeporti/ps4interface.git
